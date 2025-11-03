@@ -1,7 +1,11 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import About from './components/About';
+import Origin from './components/Origin';
+import Experience from './components/Experience';
 import Showcase from './components/Showcase';
+import Credits from './components/Credits';
 import CustomCursor from './components/CustomCursor';
 
 const App = () => {
@@ -11,8 +15,11 @@ const App = () => {
       <Header />
       <main>
         <Hero />
+        <About />
+        <Origin />
+        <Experience />
         <Showcase />
-        {/* Footer */}
+        <Credits />
         <footer id="contact" className="border-t border-white/10 bg-slate-950/80 py-10 text-white">
           <div className="mx-auto max-w-6xl px-4">
             <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
